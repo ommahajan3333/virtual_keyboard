@@ -12,11 +12,8 @@
 
         .body{
             font-family: Arial, sans-serif;
-          /*  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWyz98YznOygytpgtzTgTp5ajyi6MKe059-Q&usqp=CAU');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;  */
+            
+
             background-color: #f0f0f0;
             display: flex;
             justify-content: center;
@@ -267,9 +264,9 @@
           
     <div class="keyboard">
 
-     <!-- <div class="row">
-            <button class="key emoji-btn" onclick="toggleSymbols()">Emoji</button>
-        </div> -->
+     <
+
+<!-- ------- emoji section ------ -->
     
         <div class="row symbols-row" style="display: none;">
         <button class="key" onclick="playSound(this); typeCharacter('&#10084;')">❤</button>
@@ -299,7 +296,7 @@
         </div>   -->
         
        
-
+<!-- numerical row -->
         <div class="row">
             <button class="key _1" onclick="playSound(this); typeCharacter('`')">`</button>
             <button class="key" onclick="playSound(this); typeCharacter('1')">1</button>
@@ -812,16 +809,7 @@ const Q = document.getElementById('Q');
 
 // <------ voice to text code here ------>
 
-// function voice(){
 
-//         var recognition = new webkitSpeechRecognition();
-//         recognition.lang="en-GB";
-//         recognition.onresult= function(event){
-//             console.log(event);
-//             document.getElementById("speechToText").value = event.results[0][0].transcript;
-//         };
-//         recognition.start();
-// }
 
 
 let isVoiceInput = false;

@@ -10,12 +10,14 @@ abilities
 ability
 able
 aboriginal
+abra
 abortion
 about
 above
 abraham
 abroad
 abs
+attitude
 absence
 absent
 absolute
@@ -797,6 +799,7 @@ basename
 bases
 basic
 basically
+barney
 basics
 basin
 basis
@@ -1033,6 +1036,7 @@ boc
 bodies
 body
 bold
+brave
 bolivia
 bolt
 bomb
@@ -1427,6 +1431,7 @@ cds
 cdt
 ce
 cedar
+cut
 ceiling
 celebrate
 celebration
@@ -2445,6 +2450,7 @@ departure
 depend
 dependence
 dependent
+debard
 depending
 depends
 deployment
