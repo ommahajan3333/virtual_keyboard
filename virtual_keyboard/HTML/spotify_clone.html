@@ -16,7 +16,6 @@
     margin: 0;
     padding: 0;
 }
-
 header {
     padding: 20px;
 }
@@ -1387,13 +1386,9 @@ footer {
         stopwatchContainer.style.transform = 'translateX(-50%)';
       }
     });
-    
     // Init text to speech
-    
-    
     // function readText() {
     //   const textInput = document.getElementById('textInput').value;
-      
     //   if ('speechSynthesis' in window) {
     //     const utterance = new SpeechSynthesisUtterance(textInput);
     //     speechSynthesis.speak(utterance);
@@ -1401,7 +1396,6 @@ footer {
     //     alert('Text-to-speech is not supported in this browser.');
     //   }
     // }
-    
     function speakFromTextarea() {
                 const textToSpeak = document.getElementById("search-box").value;
                 responsiveVoice.speak(textToSpeak);
@@ -1546,6 +1540,6 @@ searchBox.addEventListener('input', function(event) {
 });
 
 </script>
-
 </body>
 </html>
+// Add event listener to the search box to handle keyboard input
