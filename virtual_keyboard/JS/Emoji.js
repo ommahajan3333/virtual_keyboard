@@ -1,4 +1,4 @@
-let customTab = null
+let customTab = null    
 
 
 const EmojiPicker = function(options) {
@@ -76,6 +76,7 @@ const EmojiPicker = function(options) {
                     })
                 }
             },
+            // css params added.......
 
             css(params) {
                 for (const key in params) {

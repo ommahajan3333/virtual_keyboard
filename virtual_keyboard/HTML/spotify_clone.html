@@ -16,7 +16,6 @@
     margin: 0;
     padding: 0;
 }
-
 header {
     padding: 20px;
 }
@@ -508,23 +507,7 @@ footer {
         <div class="keyboard-container">
           
               <div class="keyboard-container">
-                <!-- <textarea class="textarea" id="mytextarea" placeholder="Start typing or click the button to start voice input..."></textarea> -->
-                <!-- <button class="voice-toggle" onclick="toggleVoiceInput()">Voice Input</button> -->
-                <!-- <button class="voice-toggle">Auto Prediction</button>    -->
-    
-                <!-- <div class="bow">
-                    <select></select>
-                    <button> Listen </button>
-                </div> -->
-    
-                  <!-- <div class="stopwatch-container">
-                    <div id="stopwatch" class="stopwatch">00:00:00</div>
-                    <div class="buttons-container">
-                      <button onclick="startStopwatch()">&#9654;</button>
-                      <button onclick="stopStopwatch()">&#9724;</button>
-                      <button onclick="resetStopwatch()">&#8634;</button>
-                    </div>
-                  </div> -->
+                
                   
         <div class="keyboard">
     
@@ -1172,32 +1155,6 @@ footer {
         });
     });
     
-    //prediction code
-    
-    // const input = document.getElementById('textInput');
-    // const suggestionsList = document.getElementById('suggestions');
-    // const wordPredictions = ['apple', 'banana', 'orange', 'pear', 'grape'];
-    
-    // function predictWords(input) {
-    //     const inputLowerCase = input.toLowerCase();
-    //     const predictions = wordPredictions.filter(word => word.startsWith(inputLowerCase));
-    //     return predictions;
-    // }
-    
-    // function updateSuggestions() {
-    //     const inputText = input.value;
-    //     const suggestions = predictWords(inputText);
-        
-    //     suggestionsList.innerHTML = '';
-    //     suggestions.forEach(suggestion => {
-    //         const li = document.createElement('li');
-    //         li.textContent = suggestion;
-    //         suggestionsList.appendChild(li);
-    //     });
-    // }
-    
-    // // Event listener for input changes
-    // input.addEventListener('input', updateSuggestions);
     
     const textarea = document.getElementById('mytextarea');
     
@@ -1387,13 +1344,9 @@ footer {
         stopwatchContainer.style.transform = 'translateX(-50%)';
       }
     });
-    
     // Init text to speech
-    
-    
     // function readText() {
     //   const textInput = document.getElementById('textInput').value;
-      
     //   if ('speechSynthesis' in window) {
     //     const utterance = new SpeechSynthesisUtterance(textInput);
     //     speechSynthesis.speak(utterance);
@@ -1401,7 +1354,6 @@ footer {
     //     alert('Text-to-speech is not supported in this browser.');
     //   }
     // }
-    
     function speakFromTextarea() {
                 const textToSpeak = document.getElementById("search-box").value;
                 responsiveVoice.speak(textToSpeak);
@@ -1546,6 +1498,6 @@ searchBox.addEventListener('input', function(event) {
 });
 
 </script>
-
 </body>
 </html>
+// Add event listener to the search box to handle keyboard input
